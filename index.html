@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Mathis Diop</title>
-	<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -22,15 +22,16 @@
     </nav>
 
     <header class="hero">
-        <p style="color: var(--primary); margin-bottom: 1rem;">Bonjour, mon nom est</p>
+        <p style="color: var(--primary); margin-bottom: 1rem; font-weight: 500;">Bonjour, mon nom est</p>
         <h1>Mathis Diop.</h1>
         <h2>Étudiant en BUT Informatique.</h2>
         <p>
-            Passionné par le développement logiciel et la création numérique.
-            Actuellement à la recherche d'un stage de 11 à 12 semaines commençant le 20 avril, pour mettre mes compétences en pratique.
+            Passionné par l'informatique et le développement logiciel depuis plusieurs années.
+            Actuellement à la recherche d'un stage de 11 à 12 semaines pour mettre mes compétences en pratique et acquérir une expérience concrète sur le terrain.
         </p>
-        <div style="margin-top: 2rem;">
-            <a href="mailto:mathisdiop@yahoo.com" class="btn">Me contacter</a>
+        <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="mailto:mathisdiop@yahoo.com" class="btn"><i class="fas fa-envelope"></i> Me contacter</a>
+            <a href="https://github.com/MathisDev614" target="_blank" rel="noopener noreferrer" class="btn"><i class="fab fa-github"></i> Mon GitHub</a>
         </div>
     </header>
 
@@ -38,12 +39,15 @@
         <h2 class="section-title">À propos</h2>
         <div style="color: var(--secondary);">
             <p>
-                Actuellement étudiant à l'<strong>IUT d'Orsay (Université Paris Saclay)</strong>, je suis passionné par l'informatique depuis plusieurs années.
-                Mon objectif est d'acquérir une expérience concrète dans le développement à travers des projets stimulants.
+                Actuellement étudiant en 2ème année de <strong>BUT Informatique (Parcours A)</strong> à l'<strong>IUT d'Orsay — Université Paris-Saclay</strong>, je suis passionné par la conception logicielle, l'architecture de code et la résolution de problèmes techniques.
             </p>
             <br>
             <p>
-                En dehors du code, je cultive ma créativité et ma logique à travers les <strong>échecs et les jeux vidéo</strong>.
+                Curieux et rigoureux, je conçois aussi bien des applications complètes en orienté objet que des outils modulaires en ligne de commande ou des sites web ergonomiques.
+            </p>
+            <br>
+            <p>
+                En dehors du code, je cultive ma créativité, ma patience et mon esprit stratégique à travers les <strong>échecs</strong>, le <strong>dessin</strong> et les <strong>jeux vidéo</strong>.
             </p>
         </div>
     </section>
@@ -52,53 +56,56 @@
         <h2 class="section-title">Compétences</h2>
         <div class="skills-container">
             <div class="skill-category">
-                <h3><i class="fas fa-code"></i> Langages informatiques</h3>
+                <h3><i class="fas fa-code"></i> Langages</h3>
                 <div class="skill-tags">
                     <span>Python</span>
                     <span>C / C++</span>
                     <span>Java</span>
-                    <span>HTML / CSS / JS</span>
+                    <span>HTML5 / CSS3</span>
+                    <span>JavaScript</span>
                     <span>PHP</span>
                     <span>C#</span>
+                    <span>SQL</span>
                 </div>
             </div>
             <div class="skill-category">
-                <h3><i class="fas fa-code"></i> Environnements</h3>
+                <h3><i class="fas fa-laptop-code"></i> Environnements & Conception</h3>
                 <div class="skill-tags">
                     <span>Visual Studio Code</span>
                     <span>Code::Blocks</span>
                     <span>Eclipse</span>
-                    <span>IntelliJ</span>
+                    <span>IntelliJ IDEA</span>
                     <span>Visual Studio</span>
                     <span>JupyterLab</span>
                     <span>Visual Paradigm</span>
                 </div>
             </div>
             <div class="skill-category">
-                <h3><i class="fas fa-code"></i> Base de données</h3>
+                <h3><i class="fas fa-database"></i> Bases de données</h3>
                 <div class="skill-tags">
                     <span>SQL</span>
-                    <span>SQLDeveloper</span>
                     <span>MySQL</span>
+                    <span>SQLDeveloper</span>
                     <span>phpMyAdmin</span>
                 </div>
             </div>
             <div class="skill-category">
                 <h3><i class="fas fa-terminal"></i> Systèmes & Versionnement</h3>
                 <div class="skill-tags">
-                    <span>Linux (Terminal/Bash)</span>
+                    <span>Linux (Terminal / Bash)</span>
                     <span>Git</span>
+                    <span>GitHub</span>
                     <span>GitLab</span>
                 </div>
             </div>
             <div class="skill-category">
-                <h3><i class="fas fa-users"></i> Humain</h3>
+                <h3><i class="fas fa-users"></i> Compétences humaines</h3>
                 <div class="skill-tags">
                     <span>Autonomie</span>
                     <span>Adaptabilité</span>
                     <span>Résolution de problèmes</span>
                     <span>Communication</span>
-                    <span>Travail d’équipe</span>
+                    <span>Travail d'équipe</span>
                     <span>Créativité</span>
                 </div>
             </div>
@@ -113,55 +120,83 @@
     </section>
 
     <section id="projects">
-        <h2 class="section-title">Projets scolaires</h2>
+        <h2 class="section-title">Projets réalisés</h2>
         <div class="projects-grid">
             
+            <!-- Projet 1 : Extracteur YouTube -->
             <div class="project-card">
                 <div class="project-top">
                     <i class="far fa-folder"></i>
-                    <i class="fas fa-users-cog"></i>
+                    <div class="project-links">
+                        <a href="https://github.com/MathisDev614" target="_blank" rel="noopener noreferrer" title="Dépôt GitHub"><i class="fab fa-github"></i></a>
+                    </div>
                 </div>
-                <h3>App de Gestion TD/TP</h3>
+                <h3>YouTube Playlist Extractor</h3>
                 <p>
-                    Développement collaboratif d'un outil de répartition des étudiants en TD/TP. Algorithmes gloutons et de force brute.
+                    Outil CLI modulaire en Python conçu avec une séparation stricte des responsabilités (CLI, service métier avec <code>yt-dlp</code>, persistance). Permet d'extraire rapidement les métadonnées de vidéos/playlists au format JSON et CSV, avec automatisation de la conversion audio en MP3 (192 kbps) via FFmpeg.
                 </p>
-                <div class="project-tech">Java &nbsp; PHP &nbsp; SQL</div>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-top">
-                    <i class="far fa-folder"></i>
-                    <i class="fas fa-laptop-code"></i>
-                </div>
-                <h3>App de Gestion Interactive</h3>
-                <p>
-                    Conception d'une application Java pour la CIUP. Interface intuitive et logique métier complète pour la gestion des résidences et des étudiants.
-                </p>
-                <div class="project-tech">Java &nbsp; Swing &nbsp; MVC</div>
+                <div class="project-tech">Python &nbsp; yt-dlp &nbsp; CLI &nbsp; JSON/CSV &nbsp; FFmpeg</div>
             </div>
 
+            <!-- Projet 2 : Gestion TD/TP -->
             <div class="project-card">
                 <div class="project-top">
                     <i class="far fa-folder"></i>
-                    <i class="fas fa-gamepad"></i>
+                    <div class="project-links">
+                        <i class="fas fa-users-cog"></i>
+                    </div>
                 </div>
-                <h3>Jeu Vidéo 2D</h3>
+                <h3>App de Gestion de Groupes TD/TP</h3>
                 <p>
-                    Développement d'un jeu vidéo dynamique en C++ utilisant la bibliothèque graphique SDL. Gestion de la physique et des interactions.
+                    Application collaborative permettant d'optimiser et d'automatiser la répartition des étudiants en groupes de TD et TP universitaires. Conception et mise en œuvre d'algorithmes gloutons et de recherche par force brute combinés à une persistance de données robuste.
                 </p>
-                <div class="project-tech">C++ &nbsp; SDL &nbsp; Algorithmique</div>
+                <div class="project-tech">Java &nbsp; PHP &nbsp; SQL &nbsp; Algorithmes Gloutons</div>
             </div>
 
+            <!-- Projet 3 : Gestion de Résidences -->
             <div class="project-card">
                 <div class="project-top">
                     <i class="far fa-folder"></i>
-                    <i class="fas fa-globe"></i>
+                    <div class="project-links">
+                        <i class="fas fa-city"></i>
+                    </div>
                 </div>
-                <h3>Site Web Responsive</h3>
+                <h3>Gestion Interactive de Résidences</h3>
                 <p>
-                    Création d'un site web optimisé pour l'expérience utilisateur (UX/UI). Design adaptatif pour mobile et desktop.
+                    Application de bureau collaborative dotée d'une logique métier complexe pour la gestion des résidences et des étudiants. Structuration selon le patron d'architecture MVC (Modèle-Vue-Contrôleur) pour un code maintenable et découplé, avec gestion collaborative sous GitLab.
                 </p>
-                <div class="project-tech">HTML &nbsp; CSS &nbsp; Responsive</div>
+                <div class="project-tech">Java &nbsp; MVC &nbsp; POO &nbsp; Git / GitLab</div>
+            </div>
+
+            <!-- Projet 4 : Jeu Vidéo 2D -->
+            <div class="project-card">
+                <div class="project-top">
+                    <i class="far fa-folder"></i>
+                    <div class="project-links">
+                        <a href="https://github.com/MathisDev614" target="_blank" rel="noopener noreferrer" title="Dépôt GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <h3>2D Grid Game — C++ & SDL2</h3>
+                <p>
+                    Jeu 2D sur grille en C++ utilisant SDL2 et SDL_image. Implémentation d'un moteur de tuiles (*tile-based*), d'animations par spritesheets (8 FPS), d'une détection fine des collisions et d'un dictionnaire de tuiles avec recherche dichotomique en O(log n). Gestion sécurisée de la mémoire via <code>std::shared_ptr</code>.
+                </p>
+                <div class="project-tech">C++ &nbsp; SDL2 &nbsp; Recherche Dichotomique &nbsp; POO</div>
+            </div>
+
+            <!-- Projet 5 : Site Web Vitrine -->
+            <div class="project-card">
+                <div class="project-top">
+                    <i class="far fa-folder"></i>
+                    <div class="project-links">
+                        <a href="https://mathisdev614.io/parc-nature-vitrine/" target="_blank" rel="noopener noreferrer" title="Démo en ligne"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/MathisDev614" target="_blank" rel="noopener noreferrer" title="Dépôt GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <h3>Parc Nature & Aventure — Site Vitrine</h3>
+                <p>
+                    Site vitrine multi-pages statique et responsive dédié à un parc de loisirs de plein air. Conçu en HTML5 sémantique et CSS3 modulaire (découplage structure/thèmes de couleurs) sans framework. Optimisation soignée de l'UX/UI sur mobile, tablette et desktop.
+                </p>
+                <div class="project-tech">HTML5 &nbsp; CSS3 &nbsp; Responsive UX/UI &nbsp; Démo en ligne</div>
             </div>
 
         </div>
@@ -172,24 +207,25 @@
         
         <div class="timeline-item">
             <div class="timeline-date">2024 - En cours</div>
-            <h3 class="timeline-title">BUT Informatique 2ème année - Parcours A</h3>
-            <p style="color: var(--secondary);">IUT d'Orsay - Université Paris Saclay</p>
+            <h3 class="timeline-title">BUT Informatique — 2ème année (Parcours A)</h3>
+            <p style="color: var(--secondary);">IUT d'Orsay — Université Paris-Saclay</p>
         </div>
 
         <div class="timeline-item">
             <div class="timeline-date">2022 - 2024</div>
             <h3 class="timeline-title">Baccalauréat Général</h3>
-            <p style="color: var(--secondary);">Lycée Edmond Michelet - Mention Assez Bien</p>
+            <p style="color: var(--secondary);">Lycée Edmond Michelet — Mention Assez Bien</p>
         </div>
     </section>
 
     <section id="contact">
         <h2 class="section-title">Contact</h2>
         <div class="contact-container">
-            <p style="margin-top: 2rem; font-size: 1.1rem; color: var(--secondary); line-height: 2;">
+            <p style="margin-top: 2rem; font-size: 1.1rem; color: var(--secondary); line-height: 2.2;">
                 <i class="fas fa-envelope"></i> <a href="mailto:mathisdiop@yahoo.com" style="color: inherit; text-decoration: none;">mathisdiop@yahoo.com</a> <br>
                 <i class="fas fa-phone-alt"></i> 07 65 78 14 44 <br>
-                <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mathis-d-0994a3331" target="_blank" style="color: inherit; text-decoration: none;">linkedin.com/in/mathis-d-0994a3331</a> <br>
+                <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mathis-d-0994a3331" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">linkedin.com/in/mathis-d-0994a3331</a> <br>
+                <i class="fab fa-github"></i> <a href="https://github.com/MathisDev614" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">github.com/MathisDev614</a> <br>
                 <i class="fas fa-map-marker-alt"></i> Saint-Germain-lès-Arpajon
             </p>
         </div>
@@ -198,7 +234,7 @@
     <footer>
         <p>Conçu et développé par Mathis Diop &copy; 2026</p>
     </footer>
-	
-	<script src="assets/js/script.js"></script>
+    
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

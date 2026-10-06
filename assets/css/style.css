@@ -164,6 +164,8 @@ section {
 	padding: 2rem;
 	border-radius: 8px;
 	transition: transform 0.3s;
+	display: flex;
+	flex-direction: column;
 }
 
 .project-card:hover {
@@ -173,9 +175,28 @@ section {
 .project-top {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin-bottom: 1rem;
 	color: var(--primary);
 	font-size: 1.5rem;
+}
+
+.project-links {
+	display: flex;
+	gap: 0.8rem;
+	font-size: 1.2rem;
+}
+
+.project-links a {
+	color: var(--text-light);
+}
+
+.project-links a:hover {
+	color: var(--primary);
+}
+
+.project-card p {
+	flex-grow: 1;
 }
 
 .project-card h3 {
